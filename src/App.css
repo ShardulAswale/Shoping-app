@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+.body{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
+.header{
+  background-color: #ff0000;
+  padding: 10px;
+  flex: 100%;
+  text-align: center;
+}
+.list{
+  background-color: #88dc2e;
+  padding: 10px;
+  flex: 80%;
+  
+}
+.cart{
+  background-color: rgb(255, 238, 0);
+  padding: 10px;
+  flex: 20%;
+}
+@media (max-width: 800px) {
+  .list,.cart {
+    flex: 100%;
+  }
+}
